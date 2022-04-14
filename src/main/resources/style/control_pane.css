@@ -1,0 +1,22 @@
+.control-button {
+    -fx-background-radius: 5;
+    -fx-min-width: 50;
+    -fx-min-height: 50;
+    -fx-background-color: rgb(201, 216, 182);
+}
+
+.control-pane {
+    -fx-min-width: 80;
+    -fx-max-width: 80;
+    -fx-background-radius: 5;
+    -fx-spacing: 5;
+    -fx-background-color: rgb(87, 131, 123);
+    -fx-alignment: CENTER;
+}
+
+.color-palette {
+    rgb(241, 236, 195)
+    rgb(201, 216, 182)
+    rgb(87, 131, 123)
+    rgb(81, 94, 99)
+}

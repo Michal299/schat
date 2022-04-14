@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="pl.edu.pg.eti.gui.controller.ControlPaneController"
+      prefHeight="400.0" prefWidth="600.0"
+      styleClass="control-pane">
+
+    <Button text="New" styleClass="control-button"/>
+    <Button text="Con" styleClass="control-button" onAction="#handleShowContactsButtonClick"/>
+    <Button text="Set" styleClass="control-button"/>
+    <Button text="Close" styleClass="control-button" onAction="#handleCloseButtonClick"/>
+
+    <stylesheets>
+        <URL value="@../style/control_pane.css"/>
+    </stylesheets>
+</VBox>

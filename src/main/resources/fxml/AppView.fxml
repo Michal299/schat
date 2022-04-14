@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<BorderPane prefHeight="640"
+            prefWidth="1024"
+            xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pl.edu.pg.eti.gui.controller.AppController"
+            styleClass="stage">
+
+    <left>
+        <fx:include source="ControlPane.fxml" fx:id="controlPane"/>
+    </left>
+
+    <center>
+        <fx:include fx:id="mainPane" source="MainView.fxml" />
+    </center>
+
+    <stylesheets>
+        <URL value="@../style/main_pane.css"/>
+    </stylesheets>
+</BorderPane>
