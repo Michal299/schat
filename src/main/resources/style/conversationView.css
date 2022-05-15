@@ -1,0 +1,8 @@
+.messageList {
+    -fx-max-height: 1200;
+    -fx-min-height: 120;
+}
+
+.messageInput {
+
+}

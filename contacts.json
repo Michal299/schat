@@ -1,0 +1,1 @@
+[{"address":"127.0.0.1:8001","name":"EchoClient"},{"address":"127.0.0.1:8000","name":"EchoServer"},{"address":"127.0.0.1:8081","name":"SecondApp"}]
