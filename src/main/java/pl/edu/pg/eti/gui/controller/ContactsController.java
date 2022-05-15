@@ -6,6 +6,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pl.edu.pg.eti.backend.container.BackendContainer;
@@ -36,6 +37,7 @@ public class ContactsController implements Initializable {
         contactsList.getSelectionModel().selectedItemProperty()
                 .addListener((observableValue, s, t1) -> {
                     selectedContactName = observableValue.getValue();
+                    infoLabel.setText(getContactDetails());
                 });
     }
 
@@ -83,5 +85,14 @@ public class ContactsController implements Initializable {
         contactsList.getItems().removeAll(contactsList.getItems());
         contactsList.refresh();
         contactsList.getItems().addAll(contactsName);
+    }
+
+    private @NotNull String getContactDetails() {
+        if (selectedContactName == null) {
+            return "";
+        }
+        return selectedContactName +
+                ": " +
+                contactsRepository.getContactAddress(selectedContactName);
     }
 }

@@ -7,7 +7,7 @@
 
     <groupId>pl.edu.pg.eti</groupId>
     <artifactId>SChat</artifactId>
-    <version>0.0.1-ALPHA</version>
+    <version>1.0.0-SNAPSHOT</version>
     <description>Secure communicator with end-to-end encryption.</description>
 
     <properties>
