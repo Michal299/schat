@@ -10,6 +10,8 @@ import java.io.IOException;
 
 public class Main {
 
+    private static Thread serverThread;
+
     public static void main(String[] args) throws IOException {
 
         ApplicationSettings.initialize("schat-application.properties");
@@ -20,10 +22,15 @@ public class Main {
         ProductionInitializer.initialize(BackendContainer.getInstance());
 
         final var server = BackendContainer.getInstance().getComponent(Server.class);
-        var serverThread = new Thread(server::run);
+        serverThread = new Thread(server::run);
         serverThread.start();
 
         Application.launch(ChatApplication.class);
+    }
+
+    public static void stop() {
+        serverThread.interrupt();
         ApplicationSettings.flushSettings();
+        System.exit(0);
     }
 }

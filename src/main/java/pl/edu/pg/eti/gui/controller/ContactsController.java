@@ -6,7 +6,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
-import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pl.edu.pg.eti.backend.container.BackendContainer;
@@ -87,7 +86,7 @@ public class ContactsController implements Initializable {
         contactsList.getItems().addAll(contactsName);
     }
 
-    private @NotNull String getContactDetails() {
+    private String getContactDetails() {
         if (selectedContactName == null) {
             return "";
         }

@@ -7,6 +7,7 @@ module pl.edu.pg.eti {
     requires json.simple;
     requires vavr;
     requires org.apache.commons.lang3;
+    requires com.google.common;
 
     exports pl.edu.pg.eti;
     exports pl.edu.pg.eti.gui;

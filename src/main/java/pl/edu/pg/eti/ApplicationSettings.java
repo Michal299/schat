@@ -54,6 +54,10 @@ public class ApplicationSettings {
         return configuration.getString(propertyName, defaultValue);
     }
 
+    public int getProperty(final String propertyName, final int defaultValue) {
+        return configuration.getInteger("propertyName", defaultValue);
+    }
+
     public void setProperty(final String propertyName, final String value) {
         configuration.setProperty(propertyName, value);
     }

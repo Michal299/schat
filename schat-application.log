@@ -5,3 +5,212 @@
 2022-05-14 16:50:22 [INFO ] Show contacts button clicked
 2022-05-15 10:45:07 [INFO ] App has been started successfully
 2022-05-15 10:45:09 [INFO ] Show contacts button clicked
+2022-05-15 12:18:48 [INFO ] App has been started successfully
+2022-05-15 12:22:51 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-05-15 12:22:52 [INFO ] Close app button clicked
+2022-05-15 12:23:12 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:23:41 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:24:25 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:25:26 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:26:36 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:30:09 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:30:34 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:32:16 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:32:40 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:33:00 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 12:33:03 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-05-15 13:03:12 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 17:24:25 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 17:40:25 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 17:40:31 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-05-15 17:40:35 [INFO ] Close app button clicked
+2022-05-15 17:40:42 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 17:41:46 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-15 17:41:53 [INFO ] Create key file C:\Users\michu\Projects\schat\public\public_key
+2022-05-15 17:41:53 [INFO ] Create key file C:\Users\michu\Projects\schat\private\private_key
+2022-05-15 17:52:50 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-19 23:01:55 [INFO ] Create key file .\public_key
+2022-05-19 23:01:55 [INFO ] Create key file .\private_key
+2022-05-19 23:07:08 [INFO ] Create key file .\public_key
+2022-05-19 23:07:08 [INFO ] Create key file .\private_key
+2022-05-19 23:08:44 [INFO ] Create key file .\public_key
+2022-05-19 23:08:44 [INFO ] Create key file .\private_key
+2022-05-19 23:18:30 [INFO ] Old key removed from ./public_key
+2022-05-19 23:18:30 [INFO ] Create key file .\public_key
+2022-05-19 23:18:30 [INFO ] Create key file .\private_key
+2022-05-19 23:23:23 [INFO ] Create key file .\public_key
+2022-05-19 23:23:23 [INFO ] Create key file .\private_key
+2022-05-19 23:23:30 [INFO ] Create key file .\public_key
+2022-05-19 23:23:30 [INFO ] Create key file .\private_key
+2022-05-19 23:24:23 [INFO ] Create key file .\public_key
+2022-05-19 23:24:23 [INFO ] Create key file .\private_key
+2022-05-21 13:25:11 [INFO ] RSA keys save successfully.
+2022-05-21 13:27:11 [INFO ] RSA keys save successfully.
+2022-05-21 13:43:00 [INFO ] RSA keys save successfully.
+2022-05-21 13:43:08 [INFO ] RSA keys save successfully.
+2022-05-21 13:43:09 [INFO ] Cannot login user, user not initialized or wrong password
+2022-05-21 13:45:49 [INFO ] RSA keys save successfully.
+2022-05-21 14:11:00 [INFO ] RSA keys save successfully.
+2022-05-21 14:11:14 [INFO ] RSA keys save successfully.
+2022-05-21 14:13:58 [INFO ] RSA keys save successfully.
+2022-05-21 14:14:22 [INFO ] RSA keys save successfully.
+2022-05-21 14:14:34 [INFO ] RSA keys save successfully.
+2022-05-21 14:18:37 [INFO ] RSA keys save successfully.
+2022-05-21 14:22:26 [INFO ] RSA keys save successfully.
+2022-05-21 14:27:50 [INFO ] RSA keys save successfully.
+2022-05-22 12:20:23 [INFO ] RSA keys save successfully.
+2022-05-22 12:20:44 [INFO ] RSA keys save successfully.
+2022-05-22 12:21:58 [INFO ] RSA keys save successfully.
+2022-05-22 12:23:03 [INFO ] RSA keys save successfully.
+2022-05-22 12:25:07 [INFO ] RSA keys save successfully.
+2022-05-22 12:32:57 [INFO ] RSA keys save successfully.
+2022-05-22 12:33:37 [INFO ] RSA keys save successfully.
+2022-05-22 12:34:16 [INFO ] RSA keys save successfully.
+2022-05-22 12:36:07 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-22 12:36:15 [ERROR] Issue when reading key from file
+java.io.FileNotFoundException: C:\Users\michu\Projects\schat\public\public_key (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.readKeyValuesFromFile(LoginService.java:129)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.loginUser(LoginService.java:50)
+	at pl.edu.pg.eti/pl.edu.pg.eti.gui.controller.LoginController.loginButton(LoginController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at javafx.base@19-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml@19-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@19-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1852)
+	at javafx.fxml@19-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@19-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base@19-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@19-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@19-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@19-ea/javafx.scene.Node.fireEvent(Node.java:8797)
+	at javafx.controls@19-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@19-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls@19-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@19-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base@19-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@19-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@19-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@19-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3881)
+	at javafx.graphics@19-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1874)
+	at javafx.graphics@19-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2607)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@19-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@19-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@19-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@19-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-22 12:36:15 [ERROR] Issue when reading key from file
+java.io.FileNotFoundException: C:\Users\michu\Projects\schat\private\private_key (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.readKeyValuesFromFile(LoginService.java:129)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.loginUser(LoginService.java:51)
+	at pl.edu.pg.eti/pl.edu.pg.eti.gui.controller.LoginController.loginButton(LoginController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at javafx.base@19-ea/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml@19-ea/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml@19-ea/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1852)
+	at javafx.fxml@19-ea/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base@19-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base@19-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@19-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base@19-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@19-ea/javafx.scene.Node.fireEvent(Node.java:8797)
+	at javafx.controls@19-ea/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls@19-ea/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls@19-ea/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base@19-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base@19-ea/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base@19-ea/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base@19-ea/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base@19-ea/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base@19-ea/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base@19-ea/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics@19-ea/javafx.scene.Scene$MouseHandler.process(Scene.java:3881)
+	at javafx.graphics@19-ea/javafx.scene.Scene.processMouseEvent(Scene.java:1874)
+	at javafx.graphics@19-ea/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2607)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics@19-ea/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics@19-ea/com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at javafx.graphics@19-ea/com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at javafx.graphics@19-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@19-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-05-22 12:36:15 [INFO ] Cannot login user, user not initialized or wrong password
+2022-05-22 12:36:15 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-05-22 12:37:33 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-22 12:37:39 [INFO ] Cannot login user, user not initialized or wrong password
+2022-05-22 12:37:39 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-05-22 12:38:33 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-22 12:39:42 [INFO ] Cannot login user, user not initialized or wrong password
+2022-05-22 12:40:03 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-22 12:40:09 [INFO ] Cannot login user, user not initialized or wrong password
+2022-05-22 12:40:15 [INFO ] RSA keys save successfully.
+2022-05-22 12:40:18 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-05-22 12:42:51 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-22 12:44:20 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-22 12:44:25 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-05-22 12:44:39 [INFO ] Stage scene set to /fxml/Login.fxml

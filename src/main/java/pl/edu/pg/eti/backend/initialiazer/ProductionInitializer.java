@@ -7,6 +7,7 @@ import pl.edu.pg.eti.backend.container.BackendContainer;
 import pl.edu.pg.eti.backend.contact.ContactsService;
 import pl.edu.pg.eti.backend.contact.DefaultContactsService;
 import pl.edu.pg.eti.backend.event.EventsBroker;
+import pl.edu.pg.eti.backend.secure.LoginService;
 
 import java.io.IOException;
 
@@ -27,9 +28,11 @@ public class ProductionInitializer {
         container.register(EventsBroker.class, eventsBroker);
 
         final Server server = new Server(
-                Integer.parseInt(ApplicationSettings.getInstance().getProperty("port", "8080")),
+                ApplicationSettings.getInstance().getProperty("port", 8080),
                 connectionService,
                 eventsBroker);
         container.register(Server.class, server);
+
+        container.register(LoginService.class, new LoginService());
     }
 }

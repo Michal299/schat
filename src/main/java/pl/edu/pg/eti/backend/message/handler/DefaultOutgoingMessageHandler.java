@@ -21,7 +21,7 @@ public class DefaultOutgoingMessageHandler implements OutgoingMessageHandler {
         if (content.isLeft()) {
             callback.accept("Encoding...", 0.0);
             final byte[] message = encode(content.left().get());
-            final Message messageDto = new Message(MessageType.TEXT, message, -1);
+            final Message messageDto = new Message(MessageType.TEXT, "name".getBytes(StandardCharsets.UTF_8),  message, -1);
             callback.accept("Sending...", 0.0);
 
             if (!connection.isClosed() && connection.send(messageDto)) {

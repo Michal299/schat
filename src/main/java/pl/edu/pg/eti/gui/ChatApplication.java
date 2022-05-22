@@ -1,6 +1,7 @@
 package pl.edu.pg.eti.gui;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -9,32 +10,37 @@ import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pl.edu.pg.eti.ApplicationSettings;
+import pl.edu.pg.eti.Main;
 
-import java.net.URL;
+import java.io.IOException;
+import java.util.Objects;
 
 
 public class ChatApplication extends Application {
 
     private static final Logger logger = LoggerFactory.getLogger(ChatApplication.class);
+    private static Stage stage;
 
     public ChatApplication() {
         super();
     }
+
     @Override
     public void start(Stage stage) throws Exception {
-
-        final URL mainView = getClass().getResource("/fxml/AppView.fxml");
-        if (mainView == null) {
-            logger.error("/fxml/AppView.fxml hasn't been found.");
-            return;
-        }
-
-        final Parent root = FXMLLoader.load(mainView);
-        stage.setScene(new Scene(root, Color.TRANSPARENT));
-        stage.setTitle("SChat " + ApplicationSettings.getInstance().getProperty("port", "8080"));
+        ChatApplication.stage = stage;
+        stage.setOnCloseRequest((event) -> {
+            Platform.exit();
+            Main.stop();
+        });
+        changeScene("/fxml/Login.fxml");
         stage.show();
-
-        logger.info("App has been started successfully");
     }
 
+    public void changeScene(String fxmlFile) throws IOException {
+        final Parent pane = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(fxmlFile)));
+        final Stage stage = ChatApplication.stage;
+        stage.setScene(new Scene(pane, Color.TRANSPARENT));
+        stage.setTitle("SChat " + ApplicationSettings.getInstance().getProperty("port", "8080"));
+        logger.info("Stage scene set to {}", fxmlFile);
+    }
 }

@@ -4,10 +4,12 @@ import java.io.Serializable;
 
 public class Message implements Serializable {
     private final MessageType messageType;
+    private final byte[] authorName;
     private final byte[] messageContent;
     private final int messageNumber;
 
-    public Message(final MessageType messageType, final byte[] messageContent, final int messageNumber) {
+    public Message(final MessageType messageType, final byte[] authorName, final byte[] messageContent, final int messageNumber) {
+        this.authorName = authorName;
         this.messageContent = messageContent;
         this.messageNumber = messageNumber;
         this.messageType = messageType;
