@@ -21,18 +21,20 @@ public class ProductionInitializer {
         final ContactsService contactsRepository = new DefaultContactsService("contacts.json");
         container.register(ContactsService.class, contactsRepository);
 
-        final ConnectionService connectionService = new ConnectionService();
+        final LoginService loginService = new LoginService();
+        container.register(LoginService.class, loginService);
+
+        final ConnectionService connectionService = new ConnectionService(loginService);
         container.register(ConnectionService.class, connectionService);
 
         final EventsBroker eventsBroker = new EventsBroker();
         container.register(EventsBroker.class, eventsBroker);
 
         final Server server = new Server(
-                ApplicationSettings.getInstance().getProperty("port", 8080),
+                ApplicationSettings.getInstance().getProperty("port", ApplicationSettings.getInstance().getProperty("port", 8080)),
                 connectionService,
                 eventsBroker);
         container.register(Server.class, server);
 
-        container.register(LoginService.class, new LoginService());
     }
 }

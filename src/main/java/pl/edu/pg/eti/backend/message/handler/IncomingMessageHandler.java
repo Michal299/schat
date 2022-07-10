@@ -1,10 +1,9 @@
 package pl.edu.pg.eti.backend.message.handler;
 
-import io.vavr.control.Either;
+import pl.edu.pg.eti.gui.control.Message;
 
-import java.io.File;
 import java.util.function.BiConsumer;
 
 public interface IncomingMessageHandler {
-    void getMessage(BiConsumer<Either<String, File>, Double> callback);
+    void getMessage(BiConsumer<Message, Double> callback);
 }

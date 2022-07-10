@@ -18,9 +18,15 @@
         </HBox>
         <ListView fx:id="messagesList" styleClass="messageList"/>
         <HBox>
+            <ProgressBar fx:id="sendingProgress"/>
+            <Label fx:id="sendingStatus"/>
+        </HBox>
+        <HBox>
             <TextArea fx:id="messageContent" promptText="Message content" />
-            <Button text="File"/>
+            <Button text="File" onAction="#selectFileToSend"/>
             <Button text="Send" onAction="#handleSendButtonClick"/>
+            <Button text="Remove file" onAction="#removeChosenFile"/>
+            <Label fx:id="chosenFile"/>
         </HBox>
     </VBox>
     <stylesheets>

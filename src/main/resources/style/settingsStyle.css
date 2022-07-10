@@ -1,0 +1,10 @@
+.settings {
+}
+
+.option {
+    -fx-padding: 5;
+}
+
+.field {
+    -fx-min-width: 400;
+}

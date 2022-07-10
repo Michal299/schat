@@ -14,9 +14,9 @@ public final class MessageHandlerUtils {
         return connection.map(DefaultIncomingMessageHandler::new).orElse(null);
     }
 
-    public static OutgoingMessageHandler getOutgoingMessageHandler(String address) {
+    public static OutgoingMessageHandler getOutgoingMessageHandler(String address, String loggedUser) {
         final var connectionService = BackendContainer.getInstance().getComponent(ConnectionService.class);
         final var connection = connectionService.getConnection(address.split(":")[0], Integer.parseInt(address.split(":")[1]));
-        return connection.map(DefaultOutgoingMessageHandler::new).orElse(null);
+        return connection.map(conn -> new DefaultOutgoingMessageHandler(conn, loggedUser)).orElse(null);
     }
 }

@@ -1,81 +1,1139 @@
-2022-05-12 21:52:07 [INFO ] App has been started successfully
-2022-05-12 21:52:09 [INFO ] Close app button clicked
-2022-05-14 16:50:09 [INFO ] App has been started successfully
-2022-05-14 16:50:19 [INFO ] App has been started successfully
-2022-05-14 16:50:22 [INFO ] Show contacts button clicked
-2022-05-15 10:45:07 [INFO ] App has been started successfully
-2022-05-15 10:45:09 [INFO ] Show contacts button clicked
-2022-05-15 12:18:48 [INFO ] App has been started successfully
-2022-05-15 12:22:51 [INFO ] Stage scene set to /fxml/AppView.fxml
-2022-05-15 12:22:52 [INFO ] Close app button clicked
-2022-05-15 12:23:12 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:23:41 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:24:25 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:25:26 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:26:36 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:30:09 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:30:34 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:32:16 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:32:40 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:33:00 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 12:33:03 [INFO ] Stage scene set to /fxml/AppView.fxml
-2022-05-15 13:03:12 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 17:24:25 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 17:40:25 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 17:40:31 [INFO ] Stage scene set to /fxml/AppView.fxml
-2022-05-15 17:40:35 [INFO ] Close app button clicked
-2022-05-15 17:40:42 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 17:41:46 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-15 17:41:53 [INFO ] Create key file C:\Users\michu\Projects\schat\public\public_key
-2022-05-15 17:41:53 [INFO ] Create key file C:\Users\michu\Projects\schat\private\private_key
-2022-05-15 17:52:50 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-19 23:01:55 [INFO ] Create key file .\public_key
-2022-05-19 23:01:55 [INFO ] Create key file .\private_key
-2022-05-19 23:07:08 [INFO ] Create key file .\public_key
-2022-05-19 23:07:08 [INFO ] Create key file .\private_key
-2022-05-19 23:08:44 [INFO ] Create key file .\public_key
-2022-05-19 23:08:44 [INFO ] Create key file .\private_key
-2022-05-19 23:18:30 [INFO ] Old key removed from ./public_key
-2022-05-19 23:18:30 [INFO ] Create key file .\public_key
-2022-05-19 23:18:30 [INFO ] Create key file .\private_key
-2022-05-19 23:23:23 [INFO ] Create key file .\public_key
-2022-05-19 23:23:23 [INFO ] Create key file .\private_key
-2022-05-19 23:23:30 [INFO ] Create key file .\public_key
-2022-05-19 23:23:30 [INFO ] Create key file .\private_key
-2022-05-19 23:24:23 [INFO ] Create key file .\public_key
-2022-05-19 23:24:23 [INFO ] Create key file .\private_key
-2022-05-21 13:25:11 [INFO ] RSA keys save successfully.
-2022-05-21 13:27:11 [INFO ] RSA keys save successfully.
-2022-05-21 13:43:00 [INFO ] RSA keys save successfully.
-2022-05-21 13:43:08 [INFO ] RSA keys save successfully.
-2022-05-21 13:43:09 [INFO ] Cannot login user, user not initialized or wrong password
-2022-05-21 13:45:49 [INFO ] RSA keys save successfully.
-2022-05-21 14:11:00 [INFO ] RSA keys save successfully.
-2022-05-21 14:11:14 [INFO ] RSA keys save successfully.
-2022-05-21 14:13:58 [INFO ] RSA keys save successfully.
-2022-05-21 14:14:22 [INFO ] RSA keys save successfully.
-2022-05-21 14:14:34 [INFO ] RSA keys save successfully.
-2022-05-21 14:18:37 [INFO ] RSA keys save successfully.
-2022-05-21 14:22:26 [INFO ] RSA keys save successfully.
-2022-05-21 14:27:50 [INFO ] RSA keys save successfully.
-2022-05-22 12:20:23 [INFO ] RSA keys save successfully.
-2022-05-22 12:20:44 [INFO ] RSA keys save successfully.
-2022-05-22 12:21:58 [INFO ] RSA keys save successfully.
-2022-05-22 12:23:03 [INFO ] RSA keys save successfully.
-2022-05-22 12:25:07 [INFO ] RSA keys save successfully.
-2022-05-22 12:32:57 [INFO ] RSA keys save successfully.
-2022-05-22 12:33:37 [INFO ] RSA keys save successfully.
-2022-05-22 12:34:16 [INFO ] RSA keys save successfully.
-2022-05-22 12:36:07 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-22 12:36:15 [ERROR] Issue when reading key from file
-java.io.FileNotFoundException: C:\Users\michu\Projects\schat\public\public_key (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
-	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.readKeyValuesFromFile(LoginService.java:129)
-	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.loginUser(LoginService.java:50)
-	at pl.edu.pg.eti/pl.edu.pg.eti.gui.controller.LoginController.loginButton(LoginController.java:33)
+2022-05-22 12:49:49 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-22 12:49:57 [INFO ] Cannot login user, user not initialized or wrong password
+2022-05-22 12:50:02 [INFO ] RSA keys save successfully.
+2022-05-22 12:50:03 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-05-22 12:50:07 [INFO ] Settings button clicked
+2022-05-22 12:50:09 [INFO ] Show contacts button clicked
+2022-05-22 12:56:32 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-05-22 12:56:40 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-11 18:13:33 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-11 18:14:54 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-11 18:14:57 [INFO ] Show contacts button clicked
+2022-06-11 18:18:09 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-11 18:18:16 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-11 18:18:19 [INFO ] New message button clicked
+2022-06-11 18:18:21 [INFO ] Show contacts button clicked
+2022-06-11 18:18:23 [INFO ] New message button clicked
+2022-06-11 18:20:16 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-11 18:20:30 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-11 18:20:38 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-11 18:20:40 [INFO ] New message button clicked
+2022-06-11 18:21:49 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-11 18:21:59 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-11 18:22:01 [INFO ] New message button clicked
+2022-06-11 18:22:03 [WARN ] Cannot connect to client 127.0.0.1:8090.
+2022-06-11 21:40:11 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-11 21:45:03 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-11 21:49:08 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-11 21:49:13 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-11 21:49:17 [INFO ] Show contacts button clicked
+2022-06-11 21:49:19 [INFO ] New message button clicked
+2022-06-12 16:40:22 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:40:30 [INFO ] RSA keys save successfully.
+2022-06-12 16:40:31 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:41:01 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:41:51 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:41:58 [INFO ] RSA keys save successfully.
+2022-06-12 16:42:39 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:43:41 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:43:45 [INFO ] New message button clicked
+2022-06-12 16:47:00 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:47:07 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:47:09 [INFO ] New message button clicked
+2022-06-12 16:47:15 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:47:19 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:48:23 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:48:35 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:48:38 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:48:44 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:48:48 [INFO ] New message button clicked
+2022-06-12 16:49:40 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:49:43 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:49:54 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:51:06 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:51:24 [INFO ] New message button clicked
+2022-06-12 16:54:18 [INFO ] LoginService initialization
+2022-06-12 16:54:18 [INFO ] LoginService initialization
+2022-06-12 16:54:18 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:54:47 [INFO ] LoginService initialization
+2022-06-12 16:54:48 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:55:30 [INFO ] LoginService initialization
+2022-06-12 16:55:30 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:55:37 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:55:58 [INFO ] LoginService initialization
+2022-06-12 16:55:58 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:56:05 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:56:07 [INFO ] New message button clicked
+2022-06-12 16:56:09 [INFO ] Public key has been sent.
+2022-06-12 16:56:38 [INFO ] LoginService initialization
+2022-06-12 16:56:38 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:56:46 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:57:04 [INFO ] LoginService initialization
+2022-06-12 16:57:05 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:57:09 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:57:13 [INFO ] New message button clicked
+2022-06-12 16:57:15 [INFO ] Show contacts button clicked
+2022-06-12 16:57:17 [INFO ] New message button clicked
+2022-06-12 16:57:30 [INFO ] Public key has been sent.
+2022-06-12 16:57:50 [INFO ] LoginService initialization
+2022-06-12 16:57:51 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:57:56 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:57:59 [INFO ] LoginService initialization
+2022-06-12 16:58:00 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 16:58:04 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 16:58:06 [INFO ] New message button clicked
+2022-06-12 16:58:08 [INFO ] Public key has been sent.
+2022-06-12 16:58:47 [WARN ] Don't receive public key from user
+2022-06-12 17:04:28 [INFO ] LoginService initialization
+2022-06-12 17:04:28 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 17:04:32 [INFO ] LoginService initialization
+2022-06-12 17:04:32 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 17:04:41 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 17:04:47 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 17:04:50 [INFO ] New message button clicked
+2022-06-12 17:05:07 [INFO ] Public key has been sent.
+2022-06-12 17:05:07 [INFO ] Public key has been received.
+2022-06-12 17:05:09 [INFO ] Session key has been send.
+2022-06-12 17:05:09 [WARN ] Don't receive session key from user
+2022-06-12 20:12:54 [INFO ] LoginService initialization
+2022-06-12 20:12:54 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 20:13:09 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 20:13:18 [INFO ] LoginService initialization
+2022-06-12 20:13:19 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 20:13:25 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 20:13:29 [INFO ] New message button clicked
+2022-06-12 20:13:46 [INFO ] Public key has been sent.
+2022-06-12 20:13:46 [INFO ] Public key has been received.
+2022-06-12 20:14:05 [WARN ] Don't receive session key from user
+2022-06-12 20:14:05 [INFO ] Session key has been send.
+2022-06-12 20:16:30 [INFO ] LoginService initialization
+2022-06-12 20:16:31 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 20:16:39 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 20:16:43 [INFO ] LoginService initialization
+2022-06-12 20:16:44 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 20:16:49 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 20:16:54 [INFO ] New message button clicked
+2022-06-12 20:17:13 [INFO ] Public key has been sent.
+2022-06-12 20:17:24 [INFO ] Public key has been received.
+2022-06-12 20:19:13 [WARN ] Don't receive session key from user
+2022-06-12 20:19:13 [INFO ] Session key has been send.
+2022-06-12 20:49:21 [INFO ] LoginService initialization
+2022-06-12 20:49:23 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 20:49:29 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 20:49:41 [INFO ] LoginService initialization
+2022-06-12 20:49:41 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 20:50:16 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 20:50:18 [INFO ] New message button clicked
+2022-06-12 20:50:36 [INFO ] Public key has been sent.
+2022-06-12 20:50:39 [INFO ] Public key has been received.
+2022-06-12 20:51:03 [INFO ] Session key has been send.
+2022-06-12 20:56:28 [INFO ] LoginService initialization
+2022-06-12 20:56:29 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 20:56:51 [INFO ] LoginService initialization
+2022-06-12 20:56:52 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 20:57:00 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 20:57:07 [INFO ] LoginService initialization
+2022-06-12 20:57:07 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 20:57:13 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 20:57:15 [INFO ] New message button clicked
+2022-06-12 20:57:26 [INFO ] Public key has been sent.
+2022-06-12 20:57:27 [INFO ] Public key has been received.
+2022-06-12 20:57:44 [INFO ] Session key has been send.
+2022-06-12 21:40:35 [INFO ] LoginService initialization
+2022-06-12 21:40:35 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 21:42:01 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 21:42:08 [INFO ] LoginService initialization
+2022-06-12 21:42:08 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 21:42:15 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 21:42:16 [INFO ] New message button clicked
+2022-06-12 21:42:18 [INFO ] Public key has been sent.
+2022-06-12 21:42:22 [INFO ] Public key has been received.
+2022-06-12 21:42:48 [INFO ] Session key has been send.
+2022-06-12 21:44:48 [INFO ] LoginService initialization
+2022-06-12 21:44:48 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 21:44:53 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 21:45:00 [INFO ] LoginService initialization
+2022-06-12 21:45:01 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 21:45:06 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 21:45:06 [INFO ] New message button clicked
+2022-06-12 21:45:08 [INFO ] Public key has been sent.
+2022-06-12 21:45:10 [INFO ] Public key has been received.
+2022-06-12 21:45:10 [INFO ] Public key has been send.
+2022-06-12 21:45:10 [INFO ] Public key has been received.
+2022-06-12 21:45:22 [INFO ] Part of session key has been received.
+2022-06-12 21:45:29 [INFO ] Part of session key has been received.
+2022-06-12 21:45:29 [INFO ] Session key has been received completely.
+2022-06-12 21:45:29 [INFO ] Session key confirmation has been received completely.
+2022-06-12 21:45:39 [INFO ] Session key has been send.
+2022-06-12 21:45:42 [INFO ] Session key has been confirmed.
+2022-06-12 21:47:02 [INFO ] LoginService initialization
+2022-06-12 21:47:03 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 21:47:07 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 21:47:12 [INFO ] LoginService initialization
+2022-06-12 21:47:12 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 21:47:17 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 21:47:19 [INFO ] New message button clicked
+2022-06-12 21:47:20 [INFO ] Public key has been sent.
+2022-06-12 21:47:22 [INFO ] Public key has been received.
+2022-06-12 21:47:22 [INFO ] Public key has been send.
+2022-06-12 21:47:22 [INFO ] Public key has been received.
+2022-06-12 21:47:22 [INFO ] Part of session key has been received.
+2022-06-12 21:47:22 [INFO ] Session key has been send.
+2022-06-12 21:47:22 [INFO ] Part of session key has been received.
+2022-06-12 21:47:22 [INFO ] Session key has been received completely.
+2022-06-12 21:47:22 [INFO ] Session key confirmation has been received completely.
+2022-06-12 21:47:22 [INFO ] Session key has been confirmed.
+2022-06-12 21:47:54 [INFO ] LoginService initialization
+2022-06-12 21:47:54 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 21:48:00 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 21:48:05 [INFO ] LoginService initialization
+2022-06-12 21:48:06 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 21:48:11 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 21:48:13 [INFO ] New message button clicked
+2022-06-12 21:48:14 [INFO ] Public key has been sent.
+2022-06-12 21:48:17 [INFO ] Public key has been received.
+2022-06-12 21:48:17 [INFO ] Public key has been send.
+2022-06-12 21:48:17 [INFO ] Public key has been received.
+2022-06-12 21:48:17 [INFO ] Part of session key has been received.
+2022-06-12 21:48:17 [INFO ] Session key has been send.
+2022-06-12 21:48:17 [INFO ] Part of session key has been received.
+2022-06-12 21:48:17 [INFO ] Session key has been received completely.
+2022-06-12 21:48:17 [INFO ] Session key confirmation has been received completely.
+2022-06-12 21:48:17 [INFO ] Session key has been confirmed.
+2022-06-12 21:49:03 [INFO ] Close app button clicked
+2022-06-12 21:49:08 [INFO ] Close app button clicked
+2022-06-12 22:02:22 [INFO ] LoginService initialization
+2022-06-12 22:02:23 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 22:02:27 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 22:02:42 [INFO ] LoginService initialization
+2022-06-12 22:02:42 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 22:02:48 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 22:02:50 [INFO ] New message button clicked
+2022-06-12 22:02:52 [INFO ] Public key has been sent.
+2022-06-12 22:02:54 [INFO ] Public key has been received.
+2022-06-12 22:02:54 [INFO ] Public key has been send.
+2022-06-12 22:02:54 [INFO ] Public key has been received.
+2022-06-12 22:02:54 [INFO ] Part of session key has been received.
+2022-06-12 22:02:54 [INFO ] Session key has been send.
+2022-06-12 22:02:54 [INFO ] Part of session key has been received.
+2022-06-12 22:02:54 [INFO ] Session key has been received completely.
+2022-06-12 22:02:54 [INFO ] Session key confirmation has been received completely.
+2022-06-12 22:02:54 [INFO ] Session key has been confirmed.
+2022-06-12 22:04:02 [INFO ] LoginService initialization
+2022-06-12 22:04:02 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 22:04:05 [INFO ] LoginService initialization
+2022-06-12 22:04:05 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-12 22:04:11 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 22:04:19 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-12 22:04:22 [INFO ] New message button clicked
+2022-06-12 22:04:23 [INFO ] Public key has been sent.
+2022-06-12 22:04:25 [INFO ] Public key has been received.
+2022-06-12 22:04:25 [INFO ] Public key has been send.
+2022-06-12 22:04:25 [INFO ] Public key has been received.
+2022-06-12 22:04:33 [INFO ] Part of session key has been received.
+2022-06-12 22:04:34 [INFO ] Session key has been send.
+2022-06-12 22:04:34 [INFO ] Part of session key has been received.
+2022-06-12 22:04:34 [INFO ] Session key has been received completely.
+2022-06-12 22:04:34 [INFO ] Session key confirmation has been received completely.
+2022-06-12 22:04:34 [INFO ] Session key has been confirmed.
+2022-06-13 15:06:59 [INFO ] LoginService initialization
+2022-06-13 15:07:00 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:08:05 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:14:51 [INFO ] LoginService initialization
+2022-06-13 15:14:52 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:14:58 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:15:00 [INFO ] New message button clicked
+2022-06-13 15:15:05 [INFO ] Public key has been received.
+2022-06-13 15:15:05 [INFO ] Public key has been send.
+2022-06-13 15:15:11 [INFO ] Public key has been sent.
+2022-06-13 15:15:13 [INFO ] Public key has been received.
+2022-06-13 15:15:46 [WARN ] Don't receive session key from user
+2022-06-13 15:16:56 [INFO ] LoginService initialization
+2022-06-13 15:16:56 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:17:02 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:17:07 [INFO ] LoginService initialization
+2022-06-13 15:17:08 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:17:35 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:17:36 [INFO ] New message button clicked
+2022-06-13 15:17:38 [INFO ] Public key has been sent.
+2022-06-13 15:17:41 [INFO ] Public key has been received.
+2022-06-13 15:17:41 [INFO ] Public key has been send.
+2022-06-13 15:17:41 [INFO ] Public key has been received.
+2022-06-13 15:17:41 [INFO ] Session key has been send.
+2022-06-13 15:17:41 [INFO ] Part of session key has been received.
+2022-06-13 15:17:41 [INFO ] Part of session key has been received.
+2022-06-13 15:17:41 [INFO ] Session key has been received completely.
+2022-06-13 15:17:41 [INFO ] Session key confirmation has been received completely.
+2022-06-13 15:17:41 [INFO ] Session key has been confirmed.
+2022-06-13 15:20:11 [INFO ] LoginService initialization
+2022-06-13 15:20:11 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:20:16 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:20:19 [INFO ] New message button clicked
+2022-06-13 15:20:23 [INFO ] LoginService initialization
+2022-06-13 15:20:24 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:20:28 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:20:32 [INFO ] Public key has been sent.
+2022-06-13 15:20:34 [INFO ] Public key has been received.
+2022-06-13 15:20:34 [INFO ] Public key has been send.
+2022-06-13 15:20:34 [INFO ] Public key has been received.
+2022-06-13 15:20:35 [INFO ] Part of session key has been received.
+2022-06-13 15:20:35 [INFO ] Session key has been send.
+2022-06-13 15:20:35 [INFO ] Part of session key has been received.
+2022-06-13 15:20:35 [INFO ] Session key has been received completely.
+2022-06-13 15:20:35 [INFO ] Session key confirmation has been received completely.
+2022-06-13 15:20:35 [INFO ] Session key has been confirmed.
+2022-06-13 15:23:01 [INFO ] LoginService initialization
+2022-06-13 15:23:01 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:23:06 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:23:13 [INFO ] LoginService initialization
+2022-06-13 15:23:13 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:23:18 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:23:19 [INFO ] New message button clicked
+2022-06-13 15:23:20 [INFO ] Public key has been sent.
+2022-06-13 15:23:22 [INFO ] Public key has been received.
+2022-06-13 15:23:22 [INFO ] Public key has been send.
+2022-06-13 15:23:22 [INFO ] Public key has been received.
+2022-06-13 15:23:23 [INFO ] Part of session key has been received.
+2022-06-13 15:23:23 [INFO ] Session key has been send.
+2022-06-13 15:23:23 [INFO ] Part of session key has been received.
+2022-06-13 15:23:23 [INFO ] Session key has been received completely.
+2022-06-13 15:23:23 [INFO ] Session key confirmation has been received completely.
+2022-06-13 15:23:23 [INFO ] Session key has been confirmed.
+2022-06-13 15:41:30 [INFO ] LoginService initialization
+2022-06-13 15:41:31 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:41:38 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:41:44 [INFO ] LoginService initialization
+2022-06-13 15:41:45 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:41:50 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:41:52 [INFO ] New message button clicked
+2022-06-13 15:44:02 [INFO ] LoginService initialization
+2022-06-13 15:44:02 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:44:09 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:44:11 [INFO ] New message button clicked
+2022-06-13 15:46:23 [INFO ] LoginService initialization
+2022-06-13 15:46:23 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:46:29 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:46:30 [INFO ] New message button clicked
+2022-06-13 15:46:40 [INFO ] Close app button clicked
+2022-06-13 15:48:27 [INFO ] LoginService initialization
+2022-06-13 15:48:28 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:48:34 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:48:35 [INFO ] New message button clicked
+2022-06-13 15:56:29 [INFO ] LoginService initialization
+2022-06-13 15:56:29 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:56:34 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:57:20 [INFO ] LoginService initialization
+2022-06-13 15:57:20 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 15:57:25 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 15:57:30 [INFO ] New message button clicked
+2022-06-13 15:57:32 [INFO ] Public key has been sent.
+2022-06-13 15:57:37 [INFO ] Public key has been received.
+2022-06-13 15:57:37 [INFO ] Public key has been send.
+2022-06-13 15:57:37 [INFO ] Public key has been received.
+2022-06-13 15:57:37 [INFO ] Part of session key has been received.
+2022-06-13 15:57:37 [INFO ] Session key has been send.
+2022-06-13 15:57:37 [INFO ] Part of session key has been received.
+2022-06-13 15:57:37 [INFO ] Session key has been received completely.
+2022-06-13 15:57:37 [INFO ] Session key confirmation has been received completely.
+2022-06-13 15:57:37 [INFO ] Session key has been confirmed.
+2022-06-13 16:38:50 [INFO ] LoginService initialization
+2022-06-13 16:38:51 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 16:38:57 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 16:39:07 [INFO ] LoginService initialization
+2022-06-13 16:39:08 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 16:39:28 [INFO ] LoginService initialization
+2022-06-13 16:39:28 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 16:39:34 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 16:39:43 [INFO ] New message button clicked
+2022-06-13 16:39:45 [INFO ] Public key has been sent.
+2022-06-13 16:39:48 [INFO ] Public key has been received.
+2022-06-13 16:39:48 [INFO ] Public key has been send.
+2022-06-13 16:39:48 [INFO ] Public key has been received.
+2022-06-13 16:39:48 [INFO ] Part of session key has been received.
+2022-06-13 16:39:48 [INFO ] Session key has been send.
+2022-06-13 16:39:48 [INFO ] Part of session key has been received.
+2022-06-13 16:39:48 [INFO ] Session key has been received completely.
+2022-06-13 16:39:48 [INFO ] Session key confirmation has been received completely.
+2022-06-13 16:39:48 [INFO ] Session key has been confirmed.
+2022-06-13 16:42:42 [INFO ] LoginService initialization
+2022-06-13 16:42:42 [INFO ] LoginService initialization
+2022-06-13 16:42:42 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 16:42:43 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 16:42:49 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 16:43:00 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 16:43:07 [INFO ] New message button clicked
+2022-06-13 16:43:10 [INFO ] Public key has been sent.
+2022-06-13 16:43:12 [INFO ] Public key has been received.
+2022-06-13 16:43:12 [INFO ] Public key has been send.
+2022-06-13 16:43:12 [INFO ] Public key has been received.
+2022-06-13 16:43:12 [INFO ] Part of session key has been received.
+2022-06-13 16:43:12 [INFO ] Session key has been send.
+2022-06-13 16:43:12 [INFO ] Part of session key has been received.
+2022-06-13 16:43:12 [INFO ] Session key has been received completely.
+2022-06-13 16:43:12 [INFO ] Session key confirmation has been received completely.
+2022-06-13 16:43:12 [INFO ] Session key has been confirmed.
+2022-06-13 17:55:50 [INFO ] LoginService initialization
+2022-06-13 17:55:51 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 17:55:56 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 17:56:01 [INFO ] LoginService initialization
+2022-06-13 17:56:02 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 17:57:15 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 17:57:17 [INFO ] New message button clicked
+2022-06-13 17:57:18 [INFO ] Public key has been sent.
+2022-06-13 17:57:20 [INFO ] Public key has been received.
+2022-06-13 17:57:20 [INFO ] Public key has been send.
+2022-06-13 17:57:20 [INFO ] Public key has been received.
+2022-06-13 17:57:21 [INFO ] Part of session key has been received.
+2022-06-13 17:57:21 [INFO ] Session key has been send.
+2022-06-13 17:57:21 [INFO ] Part of session key has been received.
+2022-06-13 17:57:21 [INFO ] Session key has been received completely.
+2022-06-13 17:57:21 [INFO ] Session key confirmation has been received completely.
+2022-06-13 17:57:21 [INFO ] Session key has been confirmed.
+2022-06-13 17:58:16 [INFO ] LoginService initialization
+2022-06-13 17:58:16 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 17:58:19 [INFO ] LoginService initialization
+2022-06-13 17:58:19 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 17:58:25 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 17:58:30 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 17:59:52 [INFO ] New message button clicked
+2022-06-13 17:59:54 [INFO ] Public key has been sent.
+2022-06-13 17:59:56 [INFO ] Public key has been received.
+2022-06-13 17:59:56 [INFO ] Public key has been send.
+2022-06-13 17:59:56 [INFO ] Public key has been received.
+2022-06-13 17:59:56 [INFO ] Part of session key has been received.
+2022-06-13 17:59:56 [INFO ] Session key has been send.
+2022-06-13 17:59:56 [INFO ] Part of session key has been received.
+2022-06-13 17:59:56 [INFO ] Session key has been received completely.
+2022-06-13 17:59:56 [INFO ] Session key confirmation has been received completely.
+2022-06-13 17:59:56 [INFO ] Session key has been confirmed.
+2022-06-13 18:03:28 [INFO ] LoginService initialization
+2022-06-13 18:03:28 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:03:34 [INFO ] LoginService initialization
+2022-06-13 18:03:34 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:03:39 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:03:44 [INFO ] RSA keys save successfully.
+2022-06-13 18:03:45 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:03:48 [INFO ] New message button clicked
+2022-06-13 18:03:50 [INFO ] Public key has been sent.
+2022-06-13 18:03:53 [INFO ] Public key has been received.
+2022-06-13 18:03:53 [INFO ] Public key has been send.
+2022-06-13 18:03:53 [INFO ] Public key has been received.
+2022-06-13 18:03:53 [INFO ] Part of session key has been received.
+2022-06-13 18:03:53 [INFO ] Session key has been send.
+2022-06-13 18:03:53 [INFO ] Part of session key has been received.
+2022-06-13 18:03:53 [INFO ] Session key has been received completely.
+2022-06-13 18:03:53 [INFO ] Session key confirmation has been received completely.
+2022-06-13 18:03:53 [INFO ] Session key has been confirmed.
+2022-06-13 18:04:53 [INFO ] LoginService initialization
+2022-06-13 18:04:54 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:04:58 [INFO ] LoginService initialization
+2022-06-13 18:04:59 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:05:04 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:05:08 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:05:10 [INFO ] New message button clicked
+2022-06-13 18:05:12 [INFO ] Public key has been sent.
+2022-06-13 18:05:14 [INFO ] Public key has been received.
+2022-06-13 18:05:14 [INFO ] Public key has been send.
+2022-06-13 18:05:14 [INFO ] Public key has been received.
+2022-06-13 18:05:15 [INFO ] Part of session key has been received.
+2022-06-13 18:05:15 [INFO ] Session key has been send.
+2022-06-13 18:05:15 [INFO ] Part of session key has been received.
+2022-06-13 18:05:15 [INFO ] Session key has been received completely.
+2022-06-13 18:05:15 [INFO ] Session key confirmation has been received completely.
+2022-06-13 18:05:15 [INFO ] Session key has been confirmed.
+2022-06-13 18:12:15 [INFO ] LoginService initialization
+2022-06-13 18:12:16 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:12:23 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:12:28 [INFO ] LoginService initialization
+2022-06-13 18:12:29 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:12:35 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:12:36 [INFO ] New message button clicked
+2022-06-13 18:12:40 [INFO ] Public key has been sent.
+2022-06-13 18:12:43 [INFO ] Public key has been received.
+2022-06-13 18:12:43 [INFO ] Public key has been send.
+2022-06-13 18:12:43 [INFO ] Public key has been received.
+2022-06-13 18:12:43 [INFO ] Part of session key has been received.
+2022-06-13 18:12:43 [INFO ] Session key has been send.
+2022-06-13 18:12:43 [INFO ] Part of session key has been received.
+2022-06-13 18:12:43 [INFO ] Session key has been received completely.
+2022-06-13 18:12:43 [INFO ] Session key confirmation has been received completely.
+2022-06-13 18:12:43 [INFO ] Session key has been confirmed.
+2022-06-13 18:13:47 [INFO ] LoginService initialization
+2022-06-13 18:13:47 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:13:49 [INFO ] LoginService initialization
+2022-06-13 18:13:50 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:13:55 [ERROR] Issue when reading key from file
+java.io.StreamCorruptedException: invalid stream header: 9F4833CD
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:963)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:397)
+	at pl.edu.pg.eti.backend.secure.LoginService.readKeyValuesFromFile(LoginService.java:129)
+	at pl.edu.pg.eti.backend.secure.LoginService.loginUser(LoginService.java:50)
+	at pl.edu.pg.eti.gui.controller.LoginController.loginButton(LoginController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1852)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Node.fireEvent(Node.java:8797)
+	at javafx.scene.control.Button.fire(Button.java:203)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3881)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1874)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2607)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-06-13 18:13:55 [ERROR] Issue when reading key from file
+java.io.StreamCorruptedException: invalid stream header: 9F4833CD
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:963)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:397)
+	at pl.edu.pg.eti.backend.secure.LoginService.readKeyValuesFromFile(LoginService.java:129)
+	at pl.edu.pg.eti.backend.secure.LoginService.loginUser(LoginService.java:51)
+	at pl.edu.pg.eti.gui.controller.LoginController.loginButton(LoginController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1852)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Node.fireEvent(Node.java:8797)
+	at javafx.scene.control.Button.fire(Button.java:203)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3881)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1874)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2607)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-06-13 18:13:55 [INFO ] Cannot login user, user not initialized or wrong password
+2022-06-13 18:14:01 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:14:05 [ERROR] Issue when reading key from file
+java.io.StreamCorruptedException: invalid stream header: 9F4833CD
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:963)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:397)
+	at pl.edu.pg.eti.backend.secure.LoginService.readKeyValuesFromFile(LoginService.java:129)
+	at pl.edu.pg.eti.backend.secure.LoginService.loginUser(LoginService.java:50)
+	at pl.edu.pg.eti.gui.controller.LoginController.loginButton(LoginController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1852)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Node.fireEvent(Node.java:8797)
+	at javafx.scene.control.Button.fire(Button.java:203)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3881)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1874)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2607)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-06-13 18:14:05 [ERROR] Issue when reading key from file
+java.io.StreamCorruptedException: invalid stream header: 9F4833CD
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:963)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:397)
+	at pl.edu.pg.eti.backend.secure.LoginService.readKeyValuesFromFile(LoginService.java:129)
+	at pl.edu.pg.eti.backend.secure.LoginService.loginUser(LoginService.java:51)
+	at pl.edu.pg.eti.gui.controller.LoginController.loginButton(LoginController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1852)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Node.fireEvent(Node.java:8797)
+	at javafx.scene.control.Button.fire(Button.java:203)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3881)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1874)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2607)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551)
+	at com.sun.glass.ui.View.notifyMouse(View.java:937)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-06-13 18:14:05 [INFO ] Cannot login user, user not initialized or wrong password
+2022-06-13 18:14:09 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:14:10 [INFO ] New message button clicked
+2022-06-13 18:14:13 [INFO ] New message button clicked
+2022-06-13 18:14:19 [INFO ] Public key has been sent.
+2022-06-13 18:14:21 [INFO ] Public key has been received.
+2022-06-13 18:14:21 [INFO ] Public key has been send.
+2022-06-13 18:14:21 [INFO ] Public key has been received.
+2022-06-13 18:14:21 [INFO ] Part of session key has been received.
+2022-06-13 18:14:21 [INFO ] Session key has been send.
+2022-06-13 18:14:21 [INFO ] Part of session key has been received.
+2022-06-13 18:14:21 [INFO ] Session key has been received completely.
+2022-06-13 18:14:21 [INFO ] Session key confirmation has been received completely.
+2022-06-13 18:14:21 [INFO ] Session key has been confirmed.
+2022-06-13 18:15:17 [INFO ] LoginService initialization
+2022-06-13 18:15:17 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:15:18 [INFO ] LoginService initialization
+2022-06-13 18:15:18 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:15:27 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:15:32 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:15:34 [INFO ] New message button clicked
+2022-06-13 18:15:36 [INFO ] Public key has been sent.
+2022-06-13 18:15:38 [INFO ] Public key has been received.
+2022-06-13 18:15:38 [INFO ] Public key has been send.
+2022-06-13 18:15:38 [INFO ] Public key has been received.
+2022-06-13 18:15:38 [INFO ] Part of session key has been received.
+2022-06-13 18:15:38 [INFO ] Session key has been send.
+2022-06-13 18:15:38 [INFO ] Part of session key has been received.
+2022-06-13 18:15:38 [INFO ] Session key has been received completely.
+2022-06-13 18:15:38 [INFO ] Session key confirmation has been received completely.
+2022-06-13 18:15:38 [INFO ] Session key has been confirmed.
+2022-06-13 18:18:40 [INFO ] LoginService initialization
+2022-06-13 18:18:41 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:18:44 [INFO ] LoginService initialization
+2022-06-13 18:18:44 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 18:18:50 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:19:36 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 18:19:54 [INFO ] New message button clicked
+2022-06-13 18:19:56 [INFO ] Public key has been sent.
+2022-06-13 18:19:58 [INFO ] Public key has been received.
+2022-06-13 18:19:58 [INFO ] Public key has been send.
+2022-06-13 18:19:58 [INFO ] Public key has been received.
+2022-06-13 18:19:58 [INFO ] Part of session key has been received.
+2022-06-13 18:19:58 [INFO ] Session key has been send.
+2022-06-13 18:19:58 [INFO ] Part of session key has been received.
+2022-06-13 18:19:58 [INFO ] Session key has been received completely.
+2022-06-13 18:19:58 [INFO ] Session key confirmation has been received completely.
+2022-06-13 18:19:58 [INFO ] Session key has been confirmed.
+2022-06-13 20:29:27 [INFO ] LoginService initialization
+2022-06-13 20:29:27 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:29:32 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:29:50 [INFO ] LoginService initialization
+2022-06-13 20:29:50 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:30:03 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:30:08 [INFO ] New message button clicked
+2022-06-13 20:30:10 [INFO ] Public key has been sent.
+2022-06-13 20:30:14 [INFO ] Public key has been received.
+2022-06-13 20:30:14 [INFO ] Public key has been send.
+2022-06-13 20:30:14 [INFO ] Public key has been received.
+2022-06-13 20:30:14 [INFO ] Part of session key has been received.
+2022-06-13 20:30:14 [INFO ] Session key has been send.
+2022-06-13 20:30:14 [INFO ] Part of session key has been received.
+2022-06-13 20:30:14 [INFO ] Session key has been received completely.
+2022-06-13 20:30:14 [INFO ] Session key confirmation has been received completely.
+2022-06-13 20:30:14 [INFO ] Session key has been confirmed.
+2022-06-13 20:39:04 [INFO ] LoginService initialization
+2022-06-13 20:39:05 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:39:09 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:39:46 [INFO ] LoginService initialization
+2022-06-13 20:39:47 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:39:52 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:39:53 [INFO ] New message button clicked
+2022-06-13 20:39:54 [INFO ] Public key has been sent.
+2022-06-13 20:39:56 [INFO ] Public key has been received.
+2022-06-13 20:39:56 [INFO ] Public key has been send.
+2022-06-13 20:39:56 [INFO ] Public key has been received.
+2022-06-13 20:39:56 [INFO ] Part of session key has been received.
+2022-06-13 20:39:56 [INFO ] Session key has been send.
+2022-06-13 20:39:56 [INFO ] Part of session key has been received.
+2022-06-13 20:39:56 [INFO ] Session key has been received completely.
+2022-06-13 20:39:56 [INFO ] Session key confirmation has been received completely.
+2022-06-13 20:39:56 [INFO ] Session key has been confirmed.
+2022-06-13 20:43:04 [INFO ] LoginService initialization
+2022-06-13 20:43:04 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:43:11 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:43:17 [INFO ] LoginService initialization
+2022-06-13 20:43:17 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:43:23 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:43:25 [INFO ] New message button clicked
+2022-06-13 20:43:28 [INFO ] Public key has been sent.
+2022-06-13 20:43:32 [INFO ] Public key has been received.
+2022-06-13 20:43:32 [INFO ] Public key has been send.
+2022-06-13 20:43:32 [INFO ] Public key has been received.
+2022-06-13 20:43:32 [INFO ] Part of session key has been received.
+2022-06-13 20:43:32 [INFO ] Session key has been send.
+2022-06-13 20:43:32 [INFO ] Part of session key has been received.
+2022-06-13 20:43:32 [INFO ] Session key has been received completely.
+2022-06-13 20:43:32 [INFO ] Session key confirmation has been received completely.
+2022-06-13 20:43:32 [INFO ] Session key has been confirmed.
+2022-06-13 20:45:13 [INFO ] LoginService initialization
+2022-06-13 20:45:14 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:45:14 [INFO ] LoginService initialization
+2022-06-13 20:45:15 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:45:19 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:45:27 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:45:29 [INFO ] New message button clicked
+2022-06-13 20:45:30 [INFO ] Public key has been sent.
+2022-06-13 20:45:32 [INFO ] Public key has been received.
+2022-06-13 20:45:32 [INFO ] Public key has been send.
+2022-06-13 20:45:32 [INFO ] Public key has been received.
+2022-06-13 20:45:33 [INFO ] Part of session key has been received.
+2022-06-13 20:45:33 [INFO ] Session key has been send.
+2022-06-13 20:45:33 [INFO ] Part of session key has been received.
+2022-06-13 20:45:33 [INFO ] Session key has been received completely.
+2022-06-13 20:45:33 [INFO ] Session key confirmation has been received completely.
+2022-06-13 20:45:33 [INFO ] Session key has been confirmed.
+2022-06-13 20:48:16 [INFO ] LoginService initialization
+2022-06-13 20:48:16 [INFO ] LoginService initialization
+2022-06-13 20:48:17 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:48:17 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:48:25 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:48:32 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 20:48:34 [INFO ] New message button clicked
+2022-06-13 20:48:36 [INFO ] Public key has been sent.
+2022-06-13 20:48:38 [INFO ] Public key has been received.
+2022-06-13 20:48:38 [INFO ] Public key has been send.
+2022-06-13 20:48:38 [INFO ] Public key has been received.
+2022-06-13 20:48:38 [INFO ] Part of session key has been received.
+2022-06-13 20:48:38 [INFO ] Session key has been send.
+2022-06-13 20:48:38 [INFO ] Part of session key has been received.
+2022-06-13 20:48:38 [INFO ] Session key has been received completely.
+2022-06-13 20:48:38 [INFO ] Session key confirmation has been received completely.
+2022-06-13 20:48:38 [INFO ] Session key has been confirmed.
+2022-06-13 20:59:41 [INFO ] LoginService initialization
+2022-06-13 20:59:42 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 20:59:48 [INFO ] LoginService initialization
+2022-06-13 20:59:49 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:00:44 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:00:51 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:00:53 [INFO ] New message button clicked
+2022-06-13 21:00:54 [INFO ] Public key has been sent.
+2022-06-13 21:00:57 [INFO ] Public key has been received.
+2022-06-13 21:00:57 [INFO ] Public key has been send.
+2022-06-13 21:00:57 [INFO ] Public key has been received.
+2022-06-13 21:00:57 [INFO ] Part of session key has been received.
+2022-06-13 21:00:57 [INFO ] Session key has been send.
+2022-06-13 21:00:57 [INFO ] Part of session key has been received.
+2022-06-13 21:00:57 [INFO ] Session key has been received completely.
+2022-06-13 21:00:57 [INFO ] Session key confirmation has been received completely.
+2022-06-13 21:00:57 [INFO ] Session key has been confirmed.
+2022-06-13 21:15:48 [INFO ] LoginService initialization
+2022-06-13 21:15:49 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:15:58 [INFO ] LoginService initialization
+2022-06-13 21:15:58 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:16:05 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:16:12 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:16:13 [INFO ] New message button clicked
+2022-06-13 21:16:15 [INFO ] Public key has been sent.
+2022-06-13 21:16:16 [INFO ] Public key has been received.
+2022-06-13 21:16:16 [INFO ] Public key has been send.
+2022-06-13 21:16:16 [INFO ] Public key has been received.
+2022-06-13 21:16:16 [INFO ] Part of session key has been received.
+2022-06-13 21:16:16 [INFO ] Session key has been send.
+2022-06-13 21:16:16 [INFO ] Part of session key has been received.
+2022-06-13 21:16:16 [INFO ] Session key has been received completely.
+2022-06-13 21:16:16 [INFO ] Session key confirmation has been received completely.
+2022-06-13 21:16:16 [INFO ] Session key has been confirmed.
+2022-06-13 21:16:58 [INFO ] LoginService initialization
+2022-06-13 21:16:59 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:17:00 [INFO ] LoginService initialization
+2022-06-13 21:17:00 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:17:12 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:17:18 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:17:34 [INFO ] New message button clicked
+2022-06-13 21:17:36 [INFO ] Public key has been sent.
+2022-06-13 21:17:38 [INFO ] Public key has been received.
+2022-06-13 21:17:38 [INFO ] Public key has been send.
+2022-06-13 21:17:38 [INFO ] Public key has been received.
+2022-06-13 21:17:38 [INFO ] Part of session key has been received.
+2022-06-13 21:17:39 [INFO ] Session key has been send.
+2022-06-13 21:17:39 [INFO ] Part of session key has been received.
+2022-06-13 21:17:39 [INFO ] Session key has been received completely.
+2022-06-13 21:17:39 [INFO ] Session key confirmation has been received completely.
+2022-06-13 21:17:39 [INFO ] Session key has been confirmed.
+2022-06-13 21:19:38 [INFO ] LoginService initialization
+2022-06-13 21:19:39 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:19:49 [INFO ] LoginService initialization
+2022-06-13 21:19:49 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:19:53 [INFO ] LoginService initialization
+2022-06-13 21:19:54 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:19:57 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:20:04 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:20:07 [INFO ] New message button clicked
+2022-06-13 21:20:09 [INFO ] Public key has been sent.
+2022-06-13 21:20:10 [INFO ] Public key has been received.
+2022-06-13 21:20:10 [INFO ] Public key has been send.
+2022-06-13 21:20:10 [INFO ] Public key has been received.
+2022-06-13 21:20:11 [INFO ] Part of session key has been received.
+2022-06-13 21:20:11 [INFO ] Session key has been send.
+2022-06-13 21:20:11 [INFO ] Part of session key has been received.
+2022-06-13 21:20:11 [INFO ] Session key has been received completely.
+2022-06-13 21:20:11 [INFO ] Session key confirmation has been received completely.
+2022-06-13 21:20:11 [INFO ] Session key has been confirmed.
+2022-06-13 21:22:10 [INFO ] LoginService initialization
+2022-06-13 21:22:11 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:22:15 [INFO ] LoginService initialization
+2022-06-13 21:22:16 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:22:18 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:22:22 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:22:25 [INFO ] New message button clicked
+2022-06-13 21:22:27 [INFO ] Public key has been sent.
+2022-06-13 21:22:28 [INFO ] Public key has been received.
+2022-06-13 21:22:28 [INFO ] Public key has been send.
+2022-06-13 21:22:28 [INFO ] Public key has been received.
+2022-06-13 21:22:29 [INFO ] Part of session key has been received.
+2022-06-13 21:22:29 [INFO ] Session key has been send.
+2022-06-13 21:22:29 [INFO ] Part of session key has been received.
+2022-06-13 21:22:29 [INFO ] Session key has been received completely.
+2022-06-13 21:22:29 [INFO ] Session key confirmation has been received completely.
+2022-06-13 21:22:29 [INFO ] Session key has been confirmed.
+2022-06-13 21:38:18 [INFO ] LoginService initialization
+2022-06-13 21:38:19 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:38:28 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:38:30 [INFO ] LoginService initialization
+2022-06-13 21:38:30 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-13 21:38:34 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-13 21:38:38 [INFO ] New message button clicked
+2022-06-13 21:38:40 [INFO ] Public key has been sent.
+2022-06-13 21:38:42 [INFO ] Public key has been received.
+2022-06-13 21:38:42 [INFO ] Public key has been send.
+2022-06-13 21:38:42 [INFO ] Public key has been received.
+2022-06-13 21:38:42 [INFO ] Part of session key has been received.
+2022-06-13 21:38:42 [INFO ] Session key has been send.
+2022-06-13 21:38:42 [INFO ] Part of session key has been received.
+2022-06-13 21:38:42 [INFO ] Session key has been received completely.
+2022-06-13 21:38:42 [INFO ] Session key confirmation has been received completely.
+2022-06-13 21:38:42 [INFO ] Session key has been confirmed.
+2022-06-14 17:41:40 [INFO ] LoginService initialization
+2022-06-14 17:41:41 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:41:48 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 17:41:55 [INFO ] LoginService initialization
+2022-06-14 17:41:55 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:42:03 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 17:42:06 [INFO ] New message button clicked
+2022-06-14 17:42:08 [INFO ] Public key has been sent.
+2022-06-14 17:42:10 [INFO ] Public key has been received.
+2022-06-14 17:42:10 [INFO ] Public key has been send.
+2022-06-14 17:42:10 [INFO ] Public key has been received.
+2022-06-14 17:42:10 [INFO ] Part of session key has been received.
+2022-06-14 17:42:10 [INFO ] Session key has been send.
+2022-06-14 17:42:10 [INFO ] Part of session key has been received.
+2022-06-14 17:42:10 [INFO ] Session key has been received completely.
+2022-06-14 17:42:10 [INFO ] Session key confirmation has been received completely.
+2022-06-14 17:42:10 [INFO ] Session key has been confirmed.
+2022-06-14 17:42:32 [INFO ] LoginService initialization
+2022-06-14 17:42:32 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:45:09 [INFO ] LoginService initialization
+2022-06-14 17:45:09 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:45:24 [INFO ] LoginService initialization
+2022-06-14 17:45:25 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:45:33 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 17:45:43 [INFO ] LoginService initialization
+2022-06-14 17:45:44 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:45:48 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 17:45:51 [INFO ] New message button clicked
+2022-06-14 17:45:53 [INFO ] Public key has been sent.
+2022-06-14 17:45:56 [INFO ] Public key has been received.
+2022-06-14 17:45:56 [INFO ] Public key has been send.
+2022-06-14 17:45:56 [INFO ] Public key has been received.
+2022-06-14 17:45:56 [INFO ] Part of session key has been received.
+2022-06-14 17:45:56 [INFO ] Session key has been send.
+2022-06-14 17:45:56 [INFO ] Part of session key has been received.
+2022-06-14 17:45:56 [INFO ] Session key has been received completely.
+2022-06-14 17:45:56 [INFO ] Session key confirmation has been received completely.
+2022-06-14 17:45:56 [INFO ] Session key has been confirmed.
+2022-06-14 17:48:46 [INFO ] LoginService initialization
+2022-06-14 17:48:46 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:48:52 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 17:48:56 [INFO ] New message button clicked
+2022-06-14 17:49:03 [INFO ] LoginService initialization
+2022-06-14 17:49:03 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:49:09 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 17:49:56 [INFO ] LoginService initialization
+2022-06-14 17:49:56 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:50:02 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 17:50:02 [INFO ] Show contacts button clicked
+2022-06-14 17:50:05 [INFO ] Show contacts button clicked
+2022-06-14 17:50:21 [INFO ] New message button clicked
+2022-06-14 17:50:23 [INFO ] Public key has been sent.
+2022-06-14 17:50:25 [INFO ] Public key has been received.
+2022-06-14 17:50:25 [INFO ] Public key has been send.
+2022-06-14 17:50:25 [INFO ] Public key has been received.
+2022-06-14 17:50:26 [INFO ] Part of session key has been received.
+2022-06-14 17:50:26 [INFO ] Session key has been send.
+2022-06-14 17:50:26 [INFO ] Part of session key has been received.
+2022-06-14 17:50:26 [INFO ] Session key has been received completely.
+2022-06-14 17:50:26 [INFO ] Session key confirmation has been received completely.
+2022-06-14 17:50:26 [INFO ] Session key has been confirmed.
+2022-06-14 17:53:30 [INFO ] LoginService initialization
+2022-06-14 17:53:30 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:53:37 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 17:53:38 [INFO ] Settings button clicked
+2022-06-14 17:58:12 [INFO ] LoginService initialization
+2022-06-14 17:58:12 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 17:58:19 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 17:58:20 [INFO ] Settings button clicked
+2022-06-14 18:00:49 [INFO ] LoginService initialization
+2022-06-14 18:00:50 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:00:55 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:00:56 [INFO ] Settings button clicked
+2022-06-14 18:01:33 [INFO ] LoginService initialization
+2022-06-14 18:01:33 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:01:39 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:01:40 [INFO ] Settings button clicked
+2022-06-14 18:02:51 [INFO ] LoginService initialization
+2022-06-14 18:02:51 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:02:57 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:02:58 [INFO ] Settings button clicked
+2022-06-14 18:05:40 [INFO ] LoginService initialization
+2022-06-14 18:05:41 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:05:47 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:05:48 [INFO ] Settings button clicked
+2022-06-14 18:06:14 [INFO ] LoginService initialization
+2022-06-14 18:06:15 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:06:20 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:06:20 [INFO ] Settings button clicked
+2022-06-14 18:13:33 [INFO ] LoginService initialization
+2022-06-14 18:13:33 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:13:38 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:13:39 [INFO ] Settings button clicked
+2022-06-14 18:15:46 [INFO ] LoginService initialization
+2022-06-14 18:15:47 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:15:51 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:15:53 [INFO ] Settings button clicked
+2022-06-14 18:20:24 [INFO ] LoginService initialization
+2022-06-14 18:20:25 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:20:32 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:20:33 [INFO ] Settings button clicked
+2022-06-14 18:22:30 [INFO ] LoginService initialization
+2022-06-14 18:22:30 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:22:36 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:22:36 [INFO ] Settings button clicked
+2022-06-14 18:22:44 [INFO ] LoginService initialization
+2022-06-14 18:22:44 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:22:49 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:22:50 [INFO ] Settings button clicked
+2022-06-14 18:28:57 [INFO ] LoginService initialization
+2022-06-14 18:28:57 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:29:04 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:29:05 [INFO ] Settings button clicked
+2022-06-14 18:29:41 [INFO ] LoginService initialization
+2022-06-14 18:29:41 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:29:48 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:29:48 [INFO ] Settings button clicked
+2022-06-14 18:30:10 [INFO ] LoginService initialization
+2022-06-14 18:30:11 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:30:15 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:30:16 [INFO ] Settings button clicked
+2022-06-14 18:31:21 [INFO ] LoginService initialization
+2022-06-14 18:31:21 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:31:27 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:31:28 [INFO ] Settings button clicked
+2022-06-14 18:45:28 [INFO ] LoginService initialization
+2022-06-14 18:45:29 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:45:34 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:45:35 [INFO ] Settings button clicked
+2022-06-14 18:47:30 [INFO ] LoginService initialization
+2022-06-14 18:47:31 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:47:36 [INFO ] Cannot login user, user not initialized or wrong password
+2022-06-14 18:47:39 [INFO ] Cannot login user, user not initialized or wrong password
+2022-06-14 18:48:02 [INFO ] RSA keys save successfully.
+2022-06-14 18:48:03 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:48:05 [INFO ] Settings button clicked
+2022-06-14 18:49:10 [INFO ] LoginService initialization
+2022-06-14 18:49:10 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:49:16 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:50:17 [INFO ] Settings button clicked
+2022-06-14 18:51:08 [INFO ] LoginService initialization
+2022-06-14 18:51:09 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:51:14 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:51:17 [INFO ] Settings button clicked
+2022-06-14 18:52:21 [INFO ] LoginService initialization
+2022-06-14 18:52:21 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:52:27 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:52:27 [INFO ] Settings button clicked
+2022-06-14 18:53:05 [INFO ] LoginService initialization
+2022-06-14 18:53:05 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:53:10 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:53:11 [INFO ] Settings button clicked
+2022-06-14 18:54:45 [INFO ] LoginService initialization
+2022-06-14 18:54:45 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:54:53 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:54:54 [INFO ] Settings button clicked
+2022-06-14 18:55:56 [INFO ] LoginService initialization
+2022-06-14 18:55:57 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:56:01 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 18:56:02 [INFO ] Settings button clicked
+2022-06-14 18:58:04 [INFO ] LoginService initialization
+2022-06-14 18:58:05 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:58:10 [INFO ] Cannot login user, user not initialized or wrong password
+2022-06-14 18:58:11 [ERROR] Issue when saving key to file
+java.io.FileNotFoundException: C:\Users\michu\Projects\private\public_key (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.saveKeyToFile(LoginService.java:154)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.saveKeyPair(LoginService.java:110)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.initializeUser(LoginService.java:77)
+	at pl.edu.pg.eti/pl.edu.pg.eti.gui.controller.LoginController.initButton(LoginController.java:68)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,15 +1191,16 @@ java.io.FileNotFoundException: C:\Users\michu\Projects\schat\public\public_key (
 	at javafx.graphics@19-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
 	at javafx.graphics@19-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-05-22 12:36:15 [ERROR] Issue when reading key from file
-java.io.FileNotFoundException: C:\Users\michu\Projects\schat\private\private_key (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
-	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.readKeyValuesFromFile(LoginService.java:129)
-	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.loginUser(LoginService.java:51)
-	at pl.edu.pg.eti/pl.edu.pg.eti.gui.controller.LoginController.loginButton(LoginController.java:33)
+2022-06-14 18:58:11 [ERROR] Issue when saving key to file
+java.io.FileNotFoundException: C:\Users\michu\Projects\public\private_key (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.saveKeyToFile(LoginService.java:154)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.saveKeyPair(LoginService.java:111)
+	at pl.edu.pg.eti/pl.edu.pg.eti.backend.secure.LoginService.initializeUser(LoginService.java:77)
+	at pl.edu.pg.eti/pl.edu.pg.eti.gui.controller.LoginController.initButton(LoginController.java:68)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -199,18 +1258,79 @@ java.io.FileNotFoundException: C:\Users\michu\Projects\schat\private\private_key
 	at javafx.graphics@19-ea/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
 	at javafx.graphics@19-ea/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-05-22 12:36:15 [INFO ] Cannot login user, user not initialized or wrong password
-2022-05-22 12:36:15 [INFO ] Stage scene set to /fxml/AppView.fxml
-2022-05-22 12:37:33 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-22 12:37:39 [INFO ] Cannot login user, user not initialized or wrong password
-2022-05-22 12:37:39 [INFO ] Stage scene set to /fxml/AppView.fxml
-2022-05-22 12:38:33 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-22 12:39:42 [INFO ] Cannot login user, user not initialized or wrong password
-2022-05-22 12:40:03 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-22 12:40:09 [INFO ] Cannot login user, user not initialized or wrong password
-2022-05-22 12:40:15 [INFO ] RSA keys save successfully.
-2022-05-22 12:40:18 [INFO ] Stage scene set to /fxml/AppView.fxml
-2022-05-22 12:42:51 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-22 12:44:20 [INFO ] Stage scene set to /fxml/Login.fxml
-2022-05-22 12:44:25 [INFO ] Stage scene set to /fxml/AppView.fxml
-2022-05-22 12:44:39 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 18:58:11 [INFO ] RSA keys save successfully.
+2022-06-14 18:58:21 [INFO ] Cannot login user, user not initialized or wrong password
+2022-06-14 19:00:06 [INFO ] LoginService initialization
+2022-06-14 19:00:06 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 19:00:15 [INFO ] LoginService initialization
+2022-06-14 19:00:16 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 19:00:21 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 19:00:22 [INFO ] Close app button clicked
+2022-06-14 19:00:27 [INFO ] LoginService initialization
+2022-06-14 19:00:28 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 19:00:33 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 19:00:34 [INFO ] Settings button clicked
+2022-06-14 19:01:13 [INFO ] New message button clicked
+2022-06-14 19:01:17 [INFO ] LoginService initialization
+2022-06-14 19:01:18 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 19:01:22 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 19:01:26 [INFO ] Public key has been sent.
+2022-06-14 19:01:31 [INFO ] Public key has been received.
+2022-06-14 19:01:31 [INFO ] Public key has been send.
+2022-06-14 19:01:31 [INFO ] Public key has been received.
+2022-06-14 19:01:31 [INFO ] Part of session key has been received.
+2022-06-14 19:01:31 [INFO ] Session key has been send.
+2022-06-14 19:01:31 [INFO ] Part of session key has been received.
+2022-06-14 19:01:31 [INFO ] Session key has been received completely.
+2022-06-14 19:01:31 [INFO ] Session key confirmation has been received completely.
+2022-06-14 19:01:31 [INFO ] Session key has been confirmed.
+2022-06-14 19:04:27 [INFO ] LoginService initialization
+2022-06-14 19:04:27 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 19:04:35 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 19:04:37 [INFO ] Show contacts button clicked
+2022-06-14 19:04:43 [INFO ] New message button clicked
+2022-06-14 19:04:45 [INFO ] Public key has been sent.
+2022-06-14 19:04:50 [INFO ] Public key has been received.
+2022-06-14 19:04:50 [INFO ] Session key has been send.
+2022-06-14 19:04:50 [INFO ] Session key has been confirmed.
+2022-06-14 19:05:56 [INFO ] LoginService initialization
+2022-06-14 19:05:56 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 19:06:36 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 19:06:38 [INFO ] New message button clicked
+2022-06-14 19:06:40 [INFO ] Public key has been sent.
+2022-06-14 19:06:42 [INFO ] Public key has been received.
+2022-06-14 19:06:43 [INFO ] Session key has been send.
+2022-06-14 19:06:43 [INFO ] Session key has been confirmed.
+2022-06-14 19:12:07 [INFO ] LoginService initialization
+2022-06-14 19:12:08 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 19:12:13 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 19:12:22 [INFO ] New message button clicked
+2022-06-14 19:12:23 [INFO ] Public key has been sent.
+2022-06-14 19:12:25 [INFO ] Public key has been received.
+2022-06-14 19:12:25 [INFO ] Session key has been send.
+2022-06-14 19:12:25 [INFO ] Session key has been confirmed.
+2022-06-14 21:01:03 [INFO ] LoginService initialization
+2022-06-14 21:01:03 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 21:01:08 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 21:01:09 [INFO ] New message button clicked
+2022-06-14 21:07:13 [WARN ] Cannot connect to client 127.0.0.1:8090.
+2022-06-14 21:19:28 [INFO ] LoginService initialization
+2022-06-14 21:19:29 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 21:20:05 [INFO ] LoginService initialization
+2022-06-14 21:20:06 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 21:20:32 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 21:20:34 [INFO ] Show contacts button clicked
+2022-06-14 21:20:34 [INFO ] New message button clicked
+2022-06-14 21:20:36 [INFO ] Public key has been sent.
+2022-06-14 21:20:38 [INFO ] Public key has been received.
+2022-06-14 21:20:38 [INFO ] Session key has been send.
+2022-06-14 21:20:38 [INFO ] Session key has been confirmed.
+2022-06-14 22:20:42 [INFO ] Settings button clicked
+2022-06-14 22:26:21 [INFO ] LoginService initialization
+2022-06-14 22:26:21 [INFO ] Stage scene set to /fxml/Login.fxml
+2022-06-14 22:26:26 [INFO ] Stage scene set to /fxml/AppView.fxml
+2022-06-14 22:26:27 [INFO ] New message button clicked
+2022-06-14 22:26:29 [INFO ] Public key has been sent.
+2022-06-14 22:26:31 [INFO ] Public key has been received.
+2022-06-14 22:26:32 [INFO ] Session key has been send.
+2022-06-14 22:26:32 [INFO ] Session key has been confirmed.

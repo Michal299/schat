@@ -1,12 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.StackPane?>
+<?import java.net.URL?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
 <StackPane xmlns="http://javafx.com/javafx"
            xmlns:fx="http://javafx.com/fxml"
            fx:controller="pl.edu.pg.eti.gui.controller.SettingsController"
            prefHeight="400.0" prefWidth="600.0">
+    <VBox>
+        <Label fx:id="status"/>
+        <GridPane styleClass="settings">
 
-    <Label text="Settings"/>
+            <Label fx:id="cipherMode" text="Cipher mode" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <HBox styleClass="option" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                <RadioButton fx:id="ecbMode" text="ECB"/>
+                <RadioButton fx:id="cbcMode" text="CBC"/>
+            </HBox>
+
+            <Label fx:id="downloadLocation" text="Download directory" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <TextField styleClass="field" fx:id="downloadLocationPath" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+            <Label fx:id="blockSize" text="Message block size" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <TextField styleClass="field" fx:id="blockSizeValue" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+            <Label fx:id="publicKeyDir" text="Public key directory" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+            <TextField styleClass="field" fx:id="publicKeyDirValue" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+
+            <Label fx:id="privateKeyDir" text="Private key directory" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+            <TextField styleClass="field" fx:id="privateKeyDirValue" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+            <Label fx:id="publicKeyName" text="Public key name" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+            <TextField styleClass="field" fx:id="publicKeyNameValue" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+
+            <Label fx:id="privateKeyName" text="Private key name" GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+            <TextField styleClass="field" fx:id="privateKeyNameValue" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+
+            <Button fx:id="saveButton" text="Save" onAction="#saveSettings" GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+
+        </GridPane>
+    </VBox>
+
+    <stylesheets>
+        <URL value="@../style/settingsStyle.css"/>
+    </stylesheets>
 </StackPane>

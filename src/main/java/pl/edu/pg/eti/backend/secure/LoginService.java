@@ -40,6 +40,10 @@ public class LoginService {
 
     private final Logger log = LoggerFactory.getLogger(LoginService.class);
 
+    public LoginService() {
+        log.info("LoginService initialization");
+    }
+
     public boolean loginUser(String name, String password) {
         final String publicKeyPath = Path.of(publicKeyDir, publicKeyName).toString();
         final String privateKeyPath = Path.of(privateKeyDir, privateKeyName).toString();

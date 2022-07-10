@@ -1,15 +1,19 @@
 package pl.edu.pg.eti.backend.connection;
 
 import pl.edu.pg.eti.backend.message.entity.Message;
+import pl.edu.pg.eti.backend.secure.SessionKey;
 
 import java.io.IOException;
 import java.net.Socket;
+import java.security.PublicKey;
 
 public class Connection {
     private final Socket socket;
     private final Sender sender;
     private final Receiver receiver;
     private boolean isClosed;
+    private PublicKey publicKey;
+    private SessionKey sessionKey;
 
     public Connection(final Socket socket, final Sender sender, final Receiver receiver) {
         this.socket = socket;
@@ -66,5 +70,21 @@ public class Connection {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public PublicKey getPublicKey() {
+        return publicKey;
+    }
+
+    public void setPublicKey(PublicKey publicKey) {
+        this.publicKey = publicKey;
+    }
+
+    public SessionKey getSessionKey() {
+        return sessionKey;
+    }
+
+    public void setSessionKey(SessionKey sessionKey) {
+        this.sessionKey = sessionKey;
     }
 }

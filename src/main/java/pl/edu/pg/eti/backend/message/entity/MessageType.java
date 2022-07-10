@@ -4,6 +4,7 @@ public enum MessageType {
     TEXT,
     FILE,
     SESSION_KEY,
-    PUBLIC_KEY,
-    INVITATION
+    SESSION_KEY_ACKNOWLEDGE,
+    PUBLIC_KEY_REQUEST,
+    PUBLIC_KEY_RESPONSE,
 }

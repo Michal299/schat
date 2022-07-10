@@ -15,6 +15,7 @@ module pl.edu.pg.eti {
     exports pl.edu.pg.eti.gui.control;
     exports pl.edu.pg.eti.backend.event;
     exports pl.edu.pg.eti.backend.connection;
-
+    exports pl.edu.pg.eti.backend.secure;
+    exports pl.edu.pg.eti.backend.message.entity;
     opens pl.edu.pg.eti.gui.controller to javafx.fxml;
 }
